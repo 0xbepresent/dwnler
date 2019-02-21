@@ -6,8 +6,7 @@ matrix:
   - os: linux
     dist: xenial
     sudo: required
-  - os: osx
 install:
   npm install
 script:
-  npm run test
+  npm run dist-linux

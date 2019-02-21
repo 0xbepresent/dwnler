@@ -8,8 +8,8 @@
     "lint": "standard",
     "test": "ava tests/test-*.js",
     "start": "electron-forge start",
-    "package-win": "electron-forge package --platform=win32 --arch=ia32",
-    "package-linux": "electron-forge package --platform=linux --arch=x64",
+    "dist-win": "electron-forge package --platform=win32 --arch=ia32",
+    "dist-linux": "electron-forge package --platform=linux --arch=x64",
     "make": "electron-forge make"
   },
   "repository": {
