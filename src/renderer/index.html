@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/materialize.css">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <script src="main-window/frontend.js" type="text/javascript" charset="utf-8" async defer></script>
+    <title>Dwnler</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="center">
+        <div id="input-url" class="row">
+          <div class="col s12">
+            <input id="url" type="url" value="">
+          </div>
+          <div class="col s7 offset-s7">
+            <a class="waves-effect waves-light btn" id="dwn-btn">dwn!</a>
+          </div>
+        </div>
+        <div id="div-bar" class="barBg hidden" style="margin-top: -20px; margin-bottom: 20px;">
+          <div id="progress-bar">
+            <div class="barFill"></div>
+          </div>
+          <h1 id="progress-number">0%</h1>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
